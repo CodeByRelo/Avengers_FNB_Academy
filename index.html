@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Avengers</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+    <div id="loader">
+        <div class="logo-spinner">
+          <img src="images/logo.png" alt="Loading..." />
+        </div>
+    </div>
+      
+
+    <!-- navbar start -->
+
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#">
+              <img src="images/logo.png" alt="Tshwarelo Logo" />
+            </a>
+        </div>
+        <i class="fas fa-bars hamburger" onclick="toggleMenu()"></i>
+        <ul class="nav-links">
+            <li><a href="#0">Home</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="icons">
+            <a href="https://github.com/CodeByRelo"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/tshwarelo-lephoto"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://instagram.com/relo.tll"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </nav>
+
+      <!-- navbar end -->
+
+      <!-- hero start start -->
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Earth’s Mightiest Heroes</h1>
+            <p>Assemble your knowledge. Discover the Avengers.</p>
+            <a href="#team" class="hero-btn">
+            <i class="fas fa-rocket"></i> Meet the Team
+            </a>
+        </div>
+    </section>
+
+      <!-- hero section end -->
+
+      <!-- Team section start -->
+
+    <section id="team" class="team-section">
+        <div class="team-member">
+          <div class="member-image">
+            <img src="images/avengers_01.jpg" alt="Thor">
+          </div>
+          <div class="member-info">
+            <h2>Thor</h2>
+            <p>Thor, the Asgardian God of Thunder, wields his enchanted hammer Mjölnir and commands lightning. He balances divine power with loyalty and a deep sense of justice, protecting both Asgard and Earth from cosmic threats.</p>
+          </div>
+        </div>
+      
+        <div class="team-member reverse">
+          <div class="member-image">
+            <img src="images/avengers_02.jpg" alt="Iron Man">
+          </div>
+          <div class="member-info">
+            <h2>Iron Man</h2>
+            <p>Tony Stark, a genius billionaire and inventor, built the Iron Man suit to escape captivity and reinvented himself as a tech-powered superhero. Armed with intellect, charisma, and arc reactor technology, he defends Earth with unmatched innovation.</p>
+          </div>
+        </div>
+      
+        <div class="team-member">
+          <div class="member-image">
+            <img src="images/avengers_03.jpg" alt="Hulk">
+          </div>
+          <div class="member-info">
+            <h2>Hulk</h2>
+            <p>Dr. Bruce Banner transforms into the Hulk when angered — a green, gamma-radiated powerhouse. While he struggles to control his monstrous side, Hulk brings incredible strength and durability to the Avengers' battles.</p>
+          </div>
+        </div>
+      
+        <div class="team-member reverse">
+          <div class="member-image">
+            <img src="images/avengers_04.jpg" alt="Hawkeye">
+          </div>
+          <div class="member-info">
+            <h2>Hawkeye</h2>
+            <p>Clint Barton, known as Hawkeye, is a master archer and marksman with perfect aim and a sharp wit. Though lacking superpowers, his skills, courage, and tactical instincts make him a vital member of the Avengers.</p>
+          </div>
+        </div>
+      
+        <div class="team-member">
+          <div class="member-image">
+            <img src="images/avengers_05.jpg" alt="Captain America">
+          </div>
+          <div class="member-info">
+            <h2>Captain America</h2>
+            <p>Steve Rogers, a World War II hero enhanced by the Super Soldier Serum, stands for justice and freedom as Captain America. With his indestructible shield and unwavering morals, he leads the Avengers with honor and bravery.</p>
+          </div>
+        </div>
+      
+        <div class="team-member reverse">
+          <div class="member-image">
+            <img src="images/avengers_06.jpg" alt="Black Widow">
+          </div>
+          <div class="member-info">
+            <h2>Black Widow</h2>
+            <p>Natasha Romanoff, aka Black Widow, is a highly trained spy, martial artist, and former KGB assassin. With unmatched agility and stealth, she uses her skills and sharp intellect to take down enemies and fight for redemption.</p>
+          </div>
+        </div>
+    </section>            
+
+      <!-- Team section end -->
+
+      <!-- About section start -->
+
+    <section id="about" class="about-section">
+        <div class="about-content">
+          <h2>About This Project</h2>
+          <p>
+            This Avengers-themed web project was created as part of the FNB App Academy, showcasing HTML, CSS, and JavaScript skills. 
+            It features an interactive and responsive design, bringing Earth's Mightiest Heroes to life with modern web technologies. 
+            The goal is to highlight clean UI design, responsive layout techniques, and creative use of web assets in a way that reflects 
+            the heroic energy of the Marvel Universe.
+          </p>
+        </div>
+    </section>
+
+      <!-- About section end -->
+
+      <!-- footer section start-->
+
+    <footer class="footer" id="contact">
+        <div class="footer-content">
+          <h3>Contact</h3>
+          <p>Email: <a href="mailto:tshwarelo@example.com">relolephoto@gmail.com</a></p>
+          <div class="footer-socials">
+            <a href="https://github.com/CodeByRelo"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/tshwarelo-lephoto"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://instagram.com/relo.tll"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Tshwarelo | FNB App Academy Project</p>
+        </div>
+    </footer>
+      
+
+      <!-- footer section end -->
+
+    <button id="backToTop" title="Back to Top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+      
+    
+      <script src="script.js"></script>
+</body>
+</html>
